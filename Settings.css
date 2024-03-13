@@ -1,0 +1,50 @@
+.settings-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #343a3f;
+  }
+nav {
+    top: 40vh;
+    width: 90vw;
+    height: 13vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-image: linear-gradient(#151819, #4E575E);
+    border-radius: 50px;
+  }
+
+h1{
+    background: -webkit-linear-gradient(#FF9A02,#151819 300%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.title{
+  top: 3vh;
+  height: 61px;
+  position: fixed;
+  font-size: 40px;
+  text-align: center;
+  font-family: Alfa;
+}
+
+@font-face {
+    font-family:Alfa;
+    src: url(Assets/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+  }
+  
+  @font-face {
+  font-family: Alumni;
+  src: url(Assets/Alumni_Sans_Inline_One/AlumniSansInlineOne-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: Inter;
+    src: url(Assets/Inter/Inter-VariableFont_slnt\,wght.ttf);
+  }

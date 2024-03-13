@@ -1,0 +1,377 @@
+.training-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #343a3f;
+  }
+nav {
+    top: 40vh;
+    width: 90vw;
+    height: 13vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-image: linear-gradient(#151819, #4E575E);
+    border-radius: 50px;
+  }
+/*.icon-gym {
+position: fixed;
+left: 6.52%;
+right: 66.87%;
+top: 58.76%;
+bottom: 2.36%;
+transform: matrix(0.83, -0.55, 0.6, 0.8, 0, 0);
+} */
+
+  .training-back {
+    top: 0px;
+    left: 7.105427357601002e-15px;
+    width: 361px;
+    height: 121px;
+    position: absolute;
+    border-radius: 50px;
+  }
+  .training-frameicongym {
+    top: 70.95265197753906px;
+    left: 23.540000915527344px;
+    width: 95.97576141357422px;
+    height: 46.98861312866211px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-vector {
+    top: -7.203357948847724px;
+    left: 10.926795647836201px;
+    width: 17px;
+    height: 47px;
+    position: absolute;
+  }
+  .training-vector01 {
+    top: -36.017328332759234px;
+    left: 54.63405825810432px;
+    width: 17px;
+    height: 47px;
+    position: absolute;
+  }
+  .training-vector02 {
+    top: 7.540759407096516px;
+    left: 5.608211613834158px;
+    width: 13px;
+    height: 28px;
+    position: absolute;
+  }
+  .training-vector03 {
+    top: -38.081277342272415px;
+    left: 74.8113146631589px;
+    width: 13px;
+    height: 28px;
+    position: absolute;
+  }
+  .training-vector04 {
+    top: 2.043921749730771px;
+    left: 39.516440850284084px;
+    width: 35px;
+    height: 1px;
+    position: absolute;
+  }
+  .training-frameiconcalendar {
+    top: 25.344764709472656px;
+    left: 145.5428466796875px;
+    width: 71.64169311523438px;
+    height: 65.94156646728516px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-vector05 {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 66px;
+    position: absolute;
+  }
+  .training-vector06 {
+    top: 6.941276550292969px;
+    left: 0px;
+    width: 16px;
+    height: 21px;
+    position: absolute;
+  }
+  .training-vector07 {
+    top: 0px;
+    left: 15.920392036437988px;
+    width: 0px;
+    height: 14px;
+    position: absolute;
+  }
+  .training-vector08 {
+    top: 6.941276550292969px;
+    left: 61.691436767578125px;
+    width: 10px;
+    height: 21px;
+    position: absolute;
+  }
+  .training-frameiconsettings {
+    top: 26.082000732421875px;
+    left: 255px;
+    width: 76.23284912109375px;
+    height: 64.39750671386719px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-vector09 {
+    top: 22.539182662963867px;
+    left: 26.6815185546875px;
+    width: 23px;
+    height: 19px;
+    position: absolute;
+  }
+  .training-vector10 {
+    top: 0px;
+    left: 0px;
+    width: 76px;
+    height: 64px;
+    position: absolute;
+  }
+  .training-chest {
+    top: 134px;
+    left: 20px;
+    width: 354px;
+    height: 163px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-deazychestdayyyy {
+    top: 0px;
+    left: 0px;
+    width: 354px;
+    height: 163px;
+    position: absolute;
+  }
+  .training-frameiconpencil {
+    top: 99px;
+    left: 305px;
+    width: 34px;
+    height: 35px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-vector11 {
+    top: 0px;
+    left: 0px;
+    width: 34px;
+    height: 35px;
+    position: absolute;
+  }
+  .training-text {
+    top: 91px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 247px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Baloo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-text02 {
+    top: 69px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 136px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Baloo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-text04 {
+    top: 50px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 136px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Baloo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-text06 {
+    top: 13px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 275px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Blinker;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-back-and-biceps {
+    top: 316px;
+    left: 20px;
+    width: 354px;
+    height: 163px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-deazychestdayyyy1 {
+    top: 0px;
+    left: 0px;
+    width: 354px;
+    height: 163px;
+    position: absolute;
+  }
+  .training-frameiconpencil1 {
+    top: 99px;
+    left: 305px;
+    width: 34px;
+    height: 35px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-vector12 {
+    top: 0px;
+    left: 0px;
+    width: 34px;
+    height: 35px;
+    position: absolute;
+  }
+  .training-text08 {
+    top: 91px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 247px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Baloo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-text10 {
+    top: 69px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 136px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Baloo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-text12 {
+    top: 50px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 136px;
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Baloo;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-text14 {
+    top: 13px;
+    left: 18px;
+    color: rgba(255, 255, 255, 1);
+    width: 275px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Blinker;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .training-frameiconplus {
+    top: 598px;
+    left: 285px;
+    width: 71.81818389892578px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .training-bubble {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 70px;
+    position: absolute;
+  }
+  .training-vector13 {
+    top: 12.727272987365723px;
+    left: 11.818181991577148px;
+    width: 48px;
+    height: 47px;
+    position: absolute;
+  }
+
+  @media(max-width: 767px) {
+    .training-training {
+      height: 1002px;
+      background-color: #2a3035;
+    }
+  }
+  @media(max-width: 479px) {
+    .training-training {
+      background-color: #f52e2e;
+    }
+  }
+  
