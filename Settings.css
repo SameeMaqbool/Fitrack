@@ -20,19 +20,17 @@ nav {
   }
 
 h1{
-    background: -webkit-linear-gradient(#FF9A02,#151819 300%);
+    background: -webkit-linear-gradient(#FF9A02,#151819 150%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
+    top: 2vh;
+    height: auto;
+    position: fixed;
+    font-size: 100px;
+    text-align: center;
+    font-family: Alfa;
 }
 
-.title{
-  top: 3vh;
-  height: 61px;
-  position: fixed;
-  font-size: 40px;
-  text-align: center;
-  font-family: Alfa;
-}
 
 @font-face {
     font-family:Alfa;
