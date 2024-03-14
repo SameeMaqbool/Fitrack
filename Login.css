@@ -124,6 +124,7 @@ button {
   font-weight: 400;
   background-color: rgba(255, 153, 1, 0.7599999904632568);
   text-decoration: none;
+  border-radius: 25px;
 }
 
 .switchto-SignUp-pages {

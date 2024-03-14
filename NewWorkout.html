@@ -7,13 +7,12 @@
   <body>
     <div class ="NewWorkout-container">
       <h1>TRAINING</h1>
-      <div class="back-icon"><span class="material-symbols-outlined">arrow_back</span></div>
+      <a href="Training.html"><div class="back-icon"><span class="material-symbols-outlined">arrow_back</span></div></a>
       <h3> Create Routine</h3>
       <p class="workout-title-text">Workout Title:</p>
       <div class="workout-title">
       <input type="text" class="textbox" placeholder="Enter a title for the Workout">
       </div>
-      <span id="delete-exercise" class="material-symbols-outlined">Delete</span>       
       <div class="new-exercise">
         <div class="exercise-title"><input type="text" class="textbox"placeholder = "Enter a title for the Exercise"></div>  
         <div class="set">
@@ -21,17 +20,20 @@
             <p class="set-text">Set:1</p>
             <input type="text" class="textbox" placeholder="Weight..."></input>
             <input type="text" class="textbox" placeholder="# Reps..."></input>
-                
         </div>
-    <div id = "notes">
-        <input type= "text"class="textbox" placeholder="Notes...">
-    </div>
+        <span id="delete-exercise" class="material-symbols-outlined">Delete</span>       
         <span id = "addset" class="material-symbols-outlined">add</span>
-    </div>
+        <div id = "notes">
+            <input type= "text"class="textbox" placeholder="Notes...">
+        </div>
+      </div>
     <span id = "addexercise" class="material-symbols-outlined">add</span>
+    </div>
       <div class="delete-routine"></div>
       <nav>
-      </nav>
-
+        <a href="Training.html"><span id="Training-page" class="material-symbols-outlined">exercise</span></a> 
+        <a href="Logs.html"><span id="Logs-page" class="material-symbols-outlined">edit_calendar</span></a>
+        <a href="Settings.html"><span id="Settings-page" class="material-symbols-outlined">settings </span></a>
+     </nav>
   </body>
 </html>

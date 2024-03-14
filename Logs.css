@@ -6,17 +6,52 @@ body{
   min-height: 100vh;
   background-color: #343a3f;
   }
+  nav {
+    bottom: 2vh;
+    width: 90vw;
+    height: 14vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-image: linear-gradient(#151819, #4E575E);
+    border-radius: 50px;
+  }
+  #Training-page{
+    color: #64717A;
+    font-size: 250px;
+    position: relative;
+    top: 1.5vh;
+    margin-right: 2.5%;
+  }
+  
+  #Logs-page{
+    color: #FF9A02;
+    font-size: 250px;
+    position: relative;
+    top: 1.5vh;
+  }
+  
+  #Settings-page{
+    color: #64717A;
+    font-size: 250px;
+    position: relative;
+    top: 1.5vh;
+    padding: 10px;
+    margin-left: 2.5%;
+  }
+
   h1{
     background: -webkit-linear-gradient(#FF9A02,#151819 300%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     top: 2vh;
     height: auto;
-    position: fixed;
+    position: absolute;
     font-size: 100px;
     text-align: center;
     font-family: Alfa;
   }
+
   * {margin: 0;
     padding: 0;
     font-family: Inter;
@@ -83,7 +118,7 @@ body{
   position: relative;
   left: 3vw;
   width: calc(100%/7);
-  font-size:35px;
+  font-size:45px;
   }
   .calendar .days li{
   z-index: 1;
@@ -101,27 +136,30 @@ body{
   content: "";
   top: 50%;
   left: 50%;
-  transform: translate(-115%, -50%);
-  height: 65px;
-  width: 65px;
+  transform: translate(-100%, -50%);
+  height: 75px;
+  width: 75px;
   border-radius: 50%;
   z-index: -1;
   }
   .days li.active::before{
     background:#FF9A02;
   }
-  
-  nav {
-    top: 40vh;
-    width: 90vw;
-    height: 13vh;
-    display: flex;
-    position: relative;
-    align-items: center;
-    background-image: linear-gradient(#151819, #4E575E);
-    border-radius: 50px;
-  }
 
+  .Addicon span{
+position: fixed;
+bottom: 18vh;
+right: 8vw;
+width: 200px;
+height: 200px;
+background: -webkit-linear-gradient(#FF9A02,#151819 150%);
+text-align: center;
+font-size:200px;
+font-weight: 1000;
+color: #343a3f;
+text-decoration: bold;
+border-radius: 50%;
+}
 
   @font-face {
     font-family:Alfa;

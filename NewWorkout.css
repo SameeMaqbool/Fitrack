@@ -9,16 +9,6 @@
   background-color: #343a3f;
   z-index: -1;
 }
-nav {
-  top: 40vh;
-  width: 90vw;
-  height: 13vh;
-  display: flex;
-  position: relative;
-  align-items: center;
-  background-image: linear-gradient(#151819, #4E575E);
-  border-radius: 50px;
-}
 
 h1{
   background: -webkit-linear-gradient(#FF9A02,#151819 150%);
@@ -26,14 +16,14 @@ h1{
   -webkit-text-fill-color: transparent; 
   top: 2vh;
   height: auto;
-  position: fixed;
+  position: absolute;
   font-size: 100px;
   text-align: center;
   font-family: Alfa;
 }
 
 h3{
-  position: fixed;
+  position: absolute;
     top: 8vh;
   font-size: 70px;
     color: #A1A1AA;
@@ -104,18 +94,24 @@ width: 80vw;
 }
 
 #delete-exercise{
-    font-size: 100px;
-    bottom: (new-exercise*50%);
-    position: relative;
-    right: 42vw;
-    background: #FF9A02;
-    border-radius: 25%;
+  position: relative;
+  top: 13vh;
+  right: 82vw;
+  width: 90px;
+  height: 90px;
+  background:#ff9a02ba;
+  text-align: center;
+  font-size:80px;
+  font-weight: 1000;
+  color: #343a3f;
+  text-decoration: bold;
+  border-radius: 50%;
 }
 
 .new-exercise .textbox{
     position: relative;
     width: 70vw;
-    height: 4vh;
+    height: auto;
     top: 2vh;
     left: 4vw;
     display: flex;
@@ -155,7 +151,7 @@ width: 80vw;
 #addset{
     position: relative;
     top: 13vh;
-    right: 70vw;
+    right: 75vw;
     width: 70px;
     height: 70px;
     background:#ff9a02ba;
@@ -182,17 +178,57 @@ width: 80vw;
     }
 
 #notes{
-    position:fixed;
-    top: 44.5vh;
+    position:relative;
+    top: 15.5vh;
+    right: 87.5vw;
 }
 
 #notes .textbox{
-    height: 8vh;
+    height: 10vh;
+    overflow: auto;
+    
 }
-
 .delete-routine{
+  display: flex;
+  background-color: red;
+  color: white;
+  font-family: Inter;
 
 }
+nav {
+    bottom: 2vh;
+    right: 5vw;
+    width: 90vw;
+    height: 14vh;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    background-image: linear-gradient(#151819, #4E575E);
+    border-radius: 50px;
+  }
+  #Training-page{
+    color: #FF9A02;
+    font-size: 250px;
+    position: relative;
+    top: 1.5vh;
+    margin-right: 2.5%;
+  }
+  
+  #Logs-page{
+    color: #64717A;
+    font-size: 250px;
+    position: relative;
+    top: 1.5vh;
+  }
+  
+  #Settings-page{
+    color: #64717A;
+    font-size: 250px;
+    position: relative;
+    top: 1.5vh;
+    padding: 10px;
+    margin-left: 2.5%;
+  }
 
 @font-face {
     font-family:Alfa;
